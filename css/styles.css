@@ -39,7 +39,6 @@ button {
 .container {
   max-width: 1158px;
   margin: 0 auto;
-
   padding: 0 15px 0 15px;
 }
 
@@ -49,7 +48,7 @@ button {
 }
 .header-container {
   display: flex;
-
+  margin: 0 auto;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 8px;
