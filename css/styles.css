@@ -106,6 +106,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* solutions */
+
 .solutions {
   background-color: #2e2f42;
   height: 600px;
@@ -145,6 +147,7 @@ button {
   background-color: #404bbf;
 }
 
+/* principlesgit */
 .principles {
   background-color: #f4f4fd;
   padding-top: 120px;
