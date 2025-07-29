@@ -39,16 +39,16 @@ button {
 .container {
   max-width: 1158px;
   padding: 0 15px 0 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* top line */
-
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
-  margin: 0 auto;
+
   align-items: center;
   justify-content: space-between;
   margin-bottom: 8px;
