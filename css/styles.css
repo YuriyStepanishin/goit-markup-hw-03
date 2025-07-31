@@ -53,10 +53,9 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-bottom: 8px; */
 }
 
-.page-logo {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -64,19 +63,19 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
-.part-logo {
+.header-logo .part-logo {
   color: #2e2f42;
 }
+
 .nav-header {
   display: flex;
 
   align-items: center;
-  gap: 30px;
-  margin-right: auto;
-  padding: 24px 0;
 }
 .header-list {
   display: flex;
@@ -88,12 +87,13 @@ button {
 }
 
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -107,6 +107,7 @@ button {
 }
 .contacts-list {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 .contacts-link {
@@ -130,8 +131,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 188px;
-  padding-bottom: px;
+
   max-width: 496px;
   margin: 0 auto 48px auto;
 }
@@ -160,7 +160,7 @@ button {
   background-color: #404bbf;
 }
 
-/* principlesgit */
+/* principles */
 .principles {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -204,7 +204,7 @@ button {
 }
 /* our team */
 .team {
-  background-color: #f4f4fd;
+  background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -305,7 +305,6 @@ button {
 .part-logo-footer {
   font-weight: 700;
   font-size: 18px;
-
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -327,7 +326,6 @@ button {
 
 .footer-text {
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
